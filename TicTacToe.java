@@ -130,22 +130,6 @@ public class layout2 extends Frame implements ActionListener{
 				}
 			}
 			count=0;count1=0;
-			for(int j=0;j<3;j++) {
-				if(b[i][j].getText()=="X") {
-					count++;
-					if(count == 3) {
-						j2.setText("Player 1 wins");
-						j5.setText("completed in:"+(steps));
-					}
-				}
-				else if(b[i][j].getText()=="O") {
-					count1++;
-					if(count1==3) {
-						j2.setText("Player 2 wins");
-						j5.setText("completed in:"+(steps));
-					}
-				}
-			}
 		}
 	}
 	void CheckDiagonals() {

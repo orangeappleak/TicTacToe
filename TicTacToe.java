@@ -13,6 +13,9 @@ import javax.swing.JButton;
 
 public class layout2 extends Frame implements ActionListener{
 	/**
+	 * this is a test to push onto github.
+	 * 
+	 * 
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
@@ -194,23 +197,5 @@ public class layout2 extends Frame implements ActionListener{
 		}
 		chance = 0;
 		}
-	public void draw() {
-		int m=0;
-		for(int i=0;i<3;i++) {
-			for(int j=0;j<3;j++) {
-				if(b[i][j].getText()=="X"||b[i][j].getText()=="O") {
-					m++;
-				}
-			}
-		}
-		if(m==9&&j2.getText()!="Player 1 wins"&&j2.getText()!="Player 2 wins") {
-			j2.setText("push the");
-			j3.setText("RESET button");
-			j1.setText("Its a Draw");
-		}
-	}
-	public static void main(String[] args) {
-		new layout2();
-	}
 }
  
